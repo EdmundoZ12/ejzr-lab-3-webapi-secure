@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 env:
-  JAVA_VERSION: '25'
+  JAVA_VERSION: '21'
   MAVEN_OPTS: '-Xmx2g'
 
 jobs:

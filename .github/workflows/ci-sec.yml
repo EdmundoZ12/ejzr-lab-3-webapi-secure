@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  JAVA_VERSION: '25'
+  JAVA_VERSION: '21'
   MAVEN_OPTS: '-Xmx2g'
   SKIP_SCA: 'false'  # Set to 'true' to skip SCA (Dependency-Check) step and moving to nightly
 
