@@ -1,0 +1,10 @@
+title = "Regla didactica"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "demo-token"
+description = "Token ficticio del laboratorio"
+regex = '''DEMO_TOKEN_[A-Z0-9]{16}'''
+keywords = ["DEMO_TOKEN_"]
